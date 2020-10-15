@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "start": "netlify-lambda serve functions",
-      "build": "netlify-lambda build functions"
+    "start": "netlify-lambda serve functions",
+    "build": "netlify-lambda build functions"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "netlify-lambda": "^2.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.20.0"
   }
 }
